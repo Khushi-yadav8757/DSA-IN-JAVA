@@ -1,5 +1,4 @@
 // Introduction to Java
-  
 Java is an object-oriented, high-level, class-based programming language developed by James Gosling at Sun Microsystems in 1995.
 Platform Independent: Write Once, Run Anywhere (WORA)
 Compiled + Interpreted: Java compiler converts code to Bytecode → JVM executes it.
