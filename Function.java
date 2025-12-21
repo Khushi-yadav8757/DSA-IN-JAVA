@@ -1,6 +1,6 @@
 //Java Program Using a Function to Add Two Numbers.
-
 public class AddNumbers {
+    
     // Function to add two numbers
     public static int add(int a, int b) {
         return a + b;
