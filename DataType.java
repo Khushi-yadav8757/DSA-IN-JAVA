@@ -3,13 +3,21 @@ import java.io.*;
 class DataType {
     // static values
     static byte b;
+    
     static int i;
+    
     static long l;
+    
     static short s;
+    
     static boolean bool;
+    
     static char c;
+    
     static String str;
+    
     static Object object;
+    
     static float f;
     static double d;
     static int[] Arr;
