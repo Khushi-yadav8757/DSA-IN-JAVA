@@ -1,5 +1,6 @@
 // Java Program to demonstrate use of default values
 import java.io.*;
+
 class DataType {
     // static values
     static byte b;
@@ -19,8 +20,11 @@ class DataType {
     static Object object;
     
     static float f;
+    
     static double d;
+    
     static int[] Arr;
+    
     public static void main(String[] args)
     {
         // byte value
