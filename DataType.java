@@ -17,8 +17,10 @@ class DataType {
     {
         // byte value
         System.out.println("byte value" + b);
+        
         // short value
         System.out.println("short value" + s);
+        
         // int value
         System.out.println("int value" + i);
         // long value
