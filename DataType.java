@@ -38,6 +38,7 @@ class DataType {
         System.out.println("string value" + str);
         
         System.out.println("object value" + object);
+        
         System.out.println("Array value" + Arr);
     }
 }
