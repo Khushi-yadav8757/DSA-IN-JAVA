@@ -28,7 +28,9 @@ class DataType {
         System.out.println("long value" + l);
         
         System.out.println("boolean value" + bool);
+        
         System.out.println("char value" + c);
+        
         System.out.println("float value" + f);
         System.out.println("double value" + d);
         System.out.println("string value" + str);
