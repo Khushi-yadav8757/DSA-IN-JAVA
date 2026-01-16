@@ -1,5 +1,4 @@
 // Java "Guess the Number" Game
-
 import java.util.Scanner;
 import java.util.Random;
 public class GuessTheNumberGame{
