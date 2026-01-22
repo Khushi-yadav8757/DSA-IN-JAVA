@@ -5,7 +5,7 @@ public class Highestfactor {
         System.out.print("Enter a Number: ");
         int  n = sc.nextInt();
         int hf =1 ;
-        for(int i=1;i<=n;i++){                // highest factor except the n itself use this for(int i=1;i<n;i++)
+        for(int i=1;i<=n;i++){              // highest factor except the n itself use this for(int i=1;i<n;i++)
             if(n%i==0)
             hf = i ;
         }
@@ -13,3 +13,4 @@ public class Highestfactor {
     
     }
 }
+
