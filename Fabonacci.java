@@ -12,7 +12,6 @@ public class Fibonacci {
             a = b;
             b = next;
         }
-
         sc.close();
     }
 }
