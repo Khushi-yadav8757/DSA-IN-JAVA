@@ -5,6 +5,5 @@ public class ArrayBasicc {
   System.out.println(arr[i]+" ");
    }
 }
-
 //int []arr =new int[4]; // u can print 4 size of array/ 0 to 3          }
 }
