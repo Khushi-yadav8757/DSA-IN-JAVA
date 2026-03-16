@@ -8,7 +8,6 @@ class Main {
                 arr[index++] = arr[i];
             }
         }
-
         while (index < arr.length) {
             arr[index++] = 0;
         }
