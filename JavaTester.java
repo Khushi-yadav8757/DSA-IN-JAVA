@@ -3,7 +3,6 @@ public class JavaTester {
    public static void main(String args[]) {
       String a, b;
       Scanner scanner = new Scanner(System.in); 
-
       System.out.println("Enter The value for variable a");
       a = scanner.nextLine();
 
