@@ -8,7 +8,6 @@ public class JavaTester {
       System.out.println("Enter The value for variable b");
       b = scanner.nextLine();
       System.out.println("The value you have entered for a is " + a);
-
       System.out.println("The value you have entered for b is " + b);
       scanner.close();
    }	   
