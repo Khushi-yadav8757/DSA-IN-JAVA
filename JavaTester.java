@@ -5,6 +5,7 @@ public class JavaTester {
       Scanner scanner = new Scanner(System.in); 
       System.out.println("Enter The value for variable a");
       a = scanner.nextLine();
+      
       System.out.println("Enter The value for variable b");
       b = scanner.nextLine();
       System.out.println("The value you have entered for a is " + a);
