@@ -1,0 +1,23 @@
+class Solution {
+public:
+    int missingNumber(vector<int>& nums) {
+        int n = nums.size();
+        int i = 0;
+        // cyclic sort
+        while (i < n) {
+            int j = nums[i];
+
+            if (j < n && nums[i] != nums[j]) {
+                swap(nums[i], nums[j]);
+            } else {
+                i++;
+            }
+        }
+        for (int k = 0; k < n; k++) {
+            if (nums[k] != k) {
+                return k;
+            }
+        }
+        return n;
+    }
+};
