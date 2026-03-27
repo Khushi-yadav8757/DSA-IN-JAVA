@@ -1,0 +1,20 @@
+class Solution {
+public:
+    int buyChoco(vector<int>& prices, int money) {
+        int Minprc=INT_MAX;
+        int SecMinprc=INT_MAX;
+        for(int price:prices){
+            if(price<Minprc){
+                SecMinprc=Minprc;
+                Minprc=price;
+            }
+            else{
+                SecMinprc=min(SecMinprc,price);
+            }
+        }
+        if(Minprc+SecMinprc>money){
+            return money;
+        }
+        return money-(Minprc+SecMinprc);
+    }
+};
